@@ -8,7 +8,8 @@
 </head>
 <body onload="init()">
 <script type="text/javascript">
-	window.location.href="system/login/login.jsp";
+	var url = "system/login/login.jsp";
+	window.location.href = url;
 </script>
 </body>
 </html>
